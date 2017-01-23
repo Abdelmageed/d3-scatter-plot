@@ -1,7 +1,26 @@
 body{
     font-family:"Helvetica";
     text-align:center;
-    padding:50px 20px 0;
+    padding:10px 0px;
     background:#f4f4f7;
-    color:#444;margin:0;
+    color:#444;
+    margin:0;
+}
+
+svg{
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.tooltip{
+    font-size: 12px;
+    background-color: dimgrey;
+    opacity: 0.8;
+    color: white;
+    padding: 3px;
+}
+.point-circle{
+    stroke: black;
+    stroke-width: 1;
 }
