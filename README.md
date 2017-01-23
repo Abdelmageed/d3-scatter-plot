@@ -1,2 +1,5 @@
 # d3-scatter-plot
-FreeCodeCamp - Data Visulization Challenges (2)
+FreeCodeCamp - Data Visualization Challenges (2)
+
+
+[live](https://abdelmageed.github.io/d3-scatter-plot/)
