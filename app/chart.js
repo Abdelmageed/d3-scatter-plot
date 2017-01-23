@@ -78,6 +78,34 @@ const drawChart = (data) => {
     chart.append('g')
         .call(yAxis)
 
+    //labels
+    chart.append('text')
+        .text('Ranking')
+        .attr('transform', 'rotate(90)')
+        .attr('x', 10)
+        .attr('y', -7.5)
+        .style('font-size', 15)
+    
+    chart.append('text')
+        .text('Time Behind Fastest in minute:second')
+        .attr('y', chartHeight + 40)
+        .attr('x', chartWidth / 2)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 15)
+    
+    chart.append('text')
+        .text('Doping in Professional Bicycle Racing')
+        .attr('x', chartWidth / 2)
+//        .attr('y', -margin.top)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 18)
+    
+    chart.append('text')
+        .text("Fastest Times up Alpe D'Huez")
+        .attr('x', chartWidth / 2)
+        .attr('y', 20)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 15)
     //points
     var points = chart.selectAll('.point')
         .data(data)
